@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<title>insanolanbiri gh</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" type="image/x-icon" href="/static/favicon.ico" />
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 5px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+    <h1>welcome to insanolanbiri'nin gh pages şeysi</h1>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">Link1</a></li>
+      <li><a href="#">Link2</a></li>
+      <li><a href="#">Link3</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>merhaba</h1>
+    <p>hoşgeldin. buraları ileride canım daha da sıkılırsa doldurucam</p>
+    <p>ben bu siteyi adam akılı hale getirene kadar <a href="react-tetris">tetris</a> oynayabilirsin, ya da <a href="https://github.com/insanolanbiri">gh hesabıma</a> bakabilirsin mesela.</p>
+    <p>eğer tetris de açılmıyorsa sıçtık, çaktırma :)</p>
+  </article>
+</section>
+
+<footer>
+  <h3>ileride bişiler eklerim buraya da</h3>
+</footer>
+
+</body>
+</html>
+
